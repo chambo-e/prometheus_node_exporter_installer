@@ -20,11 +20,6 @@ or you can clone the repo
 $ git clone https://github.com/chambo-e/prometheus_node_exporter_installer.git
 ```
 
-Then
-```
-$ ./node_exporter_installer.sh
-```
-
 You can customize installation via env vars:
 - `EXPORTER_VERSION`: the `node_exporter` version (default:'0.14.0')
 - `EXPORTER_FLAVOR`: the `node_exporter` system flavor (default:'linux-amd64')
