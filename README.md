@@ -33,6 +33,12 @@ Example:
 $ EXPORTER_USER=anotherprom SERVICE_NAME=myfreakingservice bash <(wget -qO- https://raw.githubusercontent.com/chambo-e/prometheus_node_exporter_installer/master/node_exporter_installer.sh)
 ```
 
+#### Supported systems
+
+Tested on:
+- Debian Jessie
+- Debian Stretch
+
 ### Contribution
 
 Welcome and appreciated :)
